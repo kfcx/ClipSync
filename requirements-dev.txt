@@ -1,0 +1,12 @@
+uvicorn
+fastapi
+paho-mqtt
+pyperclip
+python-multipart
+loguru
+jinja2
+nuitka
+zstandard
+ordered-set
+imageio
+PySide6
