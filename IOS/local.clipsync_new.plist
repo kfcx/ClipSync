@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Disabled</key>
+	<false/>
+	<key>Label</key>
+	<string>local.clipsync</string>
+	<key>Program</key>
+    <string>/var/mobile/clipsync/run.sh</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/var/mobile/clipsync/run.sh</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>KeepAlive</key>
+    <true/>
+    <!-- 标准输出文件 -->
+    <key>StandardOutPath</key>
+    <string>/var/mobile/clipsync/logs/run.log</string>
+    <!-- 标准错误输出文件，错误日志 -->
+    <key>StandardErrorPath</key>
+    <string>/var/mobile/clipsync/logs/run.error</string>
+    <key>UserName</key>
+    <string>root</string>
+</dict>
+</plist>
